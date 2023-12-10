@@ -5,9 +5,11 @@ padding: 0;
 }
 .container{
 
+/* background: cyan; */
 }
-header{
 
+header{
+/* background-color: yellow; */
 
 }
 .header-nav{
@@ -33,36 +35,226 @@ background-color: #f2f2f2;
         margin-right: 50px;
         
         }
-main{
-
+.main{
+padding: 40px;
 
 }
-main .hero-section{
+.header .hero-section{
 position: relative;
-height: 600px;
-background-color: red;
-margin: 10px;
+/* height: 600px; */
+/* background-color: rgb(81, 0, 255); */
+margin: 5px;
+min-height: 500px;
+/* THIS HAS TO BE ASKED */
+margin-bottom: 100px;
 }
-main .hero-section .hero-img{
+
+.header .hero-section .hero-img{
 position: absolute;
-/* z-index: 1; */
+/* z-index: 0; */
 
 
 }
-main .hero-section .hero-img img{
+.header .hero-section .hero-img img{
    
     width: 100%;
-    
     }
 
-main .hero-section .hero-text{
+.header .hero-section .hero-text{
 
     position: absolute;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 500px;
-    height: 400px;
-    transform: translateY(25%);
+    /* margin: 0 auto; */
+    /* height: 300px; */
+    box-sizing: border-box;
+    transform: translateY(50%);
     /* transform: translateX(25%); */
     margin-left: 100px;
-    z-index: 1;
+    padding: 24px;
+    /* z-index: 21; */
 }
+.header .hero-section .hero-text h1{
+
+    /* padding: 12px; */
+    margin-bottom: 20px;
+
+}
+
+.header .hero-section .hero-text p{ 
+
+    /* padding: 12px; */
+    margin-bottom: 20px;
+}
+
+.header .hero-section .hero-text  a{
+    display: inline-block;
+    color: black;
+    padding: 12px;
+    /* color: white; */
+    /* background-color: blue; */
+    text-decoration: none;
+}
+
+.header .hero-section .hero-text a:first-of-type{
+
+    /* padding: 12px; */
+    margin-right: 15px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+.header .hero-section .hero-text a:last-of-type:hover{
+
+
+    text-decoration: underline;
+}
+
+.main .card-section{
+
+    display: flex;
+    padding: 0 40px;
+    margin-bottom: 40px;
+}
+
+
+.main .card-section .card-wrapper{
+
+    display: inline-block;
+    text-decoration: none !important;
+    color: black !important;
+    /* This has to be asked */
+}
+
+
+.main .card-section .card{
+    /* display: flex; */
+    width: 25%;
+    /* height: 300px; */
+    /* background-color: red; */
+    margin:12px;
+
+}
+
+/* 
+.main .card-section .card:first-of-type{
+
+    margin-left: 50px;
+}
+
+.main .card-section .card:last-of-type{
+
+    margin-right: 50px;
+} */
+
+.main .card-section .card .card-image img{
+
+width: 100%;
+margin-bottom: 12px;
+
+}
+
+
+.main .card-section .card .card-body{
+
+    /* padding: 12px; */
+}
+
+.main .card-section .card .card-body h1{
+
+    margin-bottom: 18px;
+}
+.main .card-section .card .card-body p{
+
+    margin-bottom: 12px;
+}
+
+.main .card-section .card .card-body a{
+
+    display: inline-block;
+    margin-bottom: 18px;
+    text-decoration: none;
+    color: blue;
+    /* THIS HAS TO BE ASKED - ALSO INSPECT ISSUE there */
+}
+    
+.main .card-section .card .card-body a:hover{
+
+   text-decoration: underline;
+}
+.main .sec-h1{
+
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.main .mid-img-section{
+
+    position: relative;
+    margin: 52px;
+    min-height: 500px;
+    
+}
+/* .main .mid-img-section a{
+display: inline-block !important;
+    text-decoration: none !important;
+    color: black !important;  */
+/* HAS TO BE ASKED */
+    /* background-color: transparent !important; */
+/* } */
+
+.main .mid-img-section img{
+
+    position: absolute;
+    width: 100%;
+}
+.main .mid-img-section .section-text{
+
+    position: absolute;
+    /* background-color: aqua; */
+    width: 500px;
+    /* margin: 0 auto; */
+    /* height: 300px; */
+    box-sizing: border-box;
+    transform: translateY(100%);
+    /* THIS HAS TO BE ASKED */
+    /* transform: translateX(25%); */
+    margin-left: 100px;
+    padding: 24px;
+    /* z-index: 21; */}
+
+    .main .mid-img-section .section-text h1{
+
+      
+       margin-bottom: 18px;
+    }
+
+    .main .mid-img-section .section-text p{
+
+      
+        margin-bottom: 18px;
+    }
+
+
+    .main .mid-img-section .section-text a{
+
+        
+      display: inline-block;
+        padding: 12px;
+        text-decoration: none;
+        background-color: blue ;
+        color: white;
+    }
+    .footer{
+        display: flex;
+        padding: 80px;
+        background-color: rgb(239, 239, 239);
+    }
+    .footer ul{
+      margin-right: 150px;
+          }
+
+    .footer ul li{
+list-style-type: none;
+    }
+
